@@ -431,7 +431,7 @@ body {
 		.next {
 			width: 57px;
 			height: 93px;
-			background-image: url(../filadelfia/gallery/img/full/next.png);
+			background-image: url(../filadelfia/gallery/img/full/next.png.png);
 			position: absolute;
 			text-indent: -9999px;
 			top: 35%;
@@ -440,7 +440,7 @@ body {
 		.prev {
 			width: 57px;
 			height: 93px;
-			background-image: url(../filadelfia/gallery/img/full/prev.png);
+			background-image: url(../filadelfia/gallery/img/full/prev.png.lnk);
 			position: absolute;
 			text-indent: -9999px;
 			top: 35%;
