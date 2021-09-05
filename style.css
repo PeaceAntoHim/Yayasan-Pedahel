@@ -147,7 +147,8 @@ body {
 	height: 85px;
 	background-color: rgb(232, 253, 146);
 	border-bottom: 3px solid red;
-	z-index: 9999;
+	z-index: 99999;
+	
 }
 
 .container {
@@ -1448,8 +1449,36 @@ body {
 		opacity: 0;
 	}
 }
-
-
+					/*Gallery  */
+	.jumbo {
+		width: 100%;
+		border: 3px solid white;
+		box-sizing: border-box;
+		margin-top: 80px;
+		margin-bottom: -15px;
+	}
+	.thumb {
+		width: 312px;
+		float: left;
+		border: 3px solid white;
+		box-sizing: border-box;
+	}
+	.thumb:hover {
+		opacity: 0.5;
+		cursor: pointer;
+	}
+@keyframes gFade {
+	to {
+		opacity: 1;
+	}
+}
+.fade {
+	opacity: 0;
+	animation: gFade 0.5s forwards;
+}
+.active {
+	opacity: 0.5;
+}
 							/*	Facebook	*/
 
 
@@ -1458,7 +1487,9 @@ body {
 	font-size: 25px;
 
 }
-
+.fb {
+	margin-top: 750px;
+}
 .fb a {
 	background-image: url(R14.png);
 	width: 101px;
@@ -1468,7 +1499,6 @@ body {
 	display: inline-block;
 	box-shadow: 0px 30px 5px -20px rgba(0, 0, 0, .75);
 	transition: .3s;
-	;
 }
 
 .fb a:hover {
